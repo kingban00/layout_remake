@@ -1,0 +1,147 @@
+*{
+    margin: none;
+    padding: 0;
+}
+
+h3{
+    font-size: 1.1em;
+}
+
+p{
+    font-size: 0.8em;
+}
+
+#footer{
+    background-color: black;
+    padding: 6vh 15vw;
+}
+
+#footer h3{
+    color: white;
+}
+
+#footer p{
+    color: white;
+}
+
+.col h3{
+    margin-bottom: 1em;
+}
+
+.icon-div{
+    margin-bottom: 1em;
+}
+
+.icon-div img{
+    margin-right: 0.7em;
+}
+
+#logo_footer{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    width: 12vh;
+}
+
+.footer_icon{
+    filter: invert(64%) sepia(39%) saturate(5020%) hue-rotate(18deg) brightness(104%) contrast(88%);
+}
+
+#copyright{
+    background-color: rgb(34, 34, 34);
+        
+    font-size: 12px;
+    align-items: center;
+
+    padding-top: 1.8vh;
+    padding-bottom: 0.04em;
+}
+
+#copyright p{
+    color: white;
+    text-align: center;
+}
+
+#a_btn_up{
+    width: min-content;
+    position: fixed;
+    left: 95%;
+    bottom: 0.8em;
+}
+
+#btn_up{
+    height: 3em;
+    filter: invert(18%) sepia(20%) saturate(18%) hue-rotate(314deg) brightness(101%) contrast(79%);
+}
+
+/* Responsividade */
+
+@media(max-width:1025px){
+    #footer{
+        padding: 6vh 6vw;
+    }
+}
+
+@media(max-width:770px){
+    #footer {
+        padding: 8vh 16vw;
+        padding-right: 0em;
+        row-gap: 2em;
+    }
+
+    #a_btn_up{
+        left: 93%;
+    }
+
+    #copyright p {
+        font-size: 0.9em;
+    }
+
+}
+
+@media(max-width:425px){
+    #footer {
+        padding: 8vh 0vw;
+        padding-left: 0.7em;
+        row-gap: 3em;
+    }
+
+    #logo_footer {
+        width: 13vh;
+    }
+
+    #a_btn_up{
+        left: 85%;
+        bottom: 2.8em;
+    } 
+    
+    #copyright p {
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width:375px){
+    #footer {
+        padding: 8vh 21vw;
+        padding-left: 5.5em;
+        row-gap: 3em;
+    }
+
+    #copyright p {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 320px){
+    #footer {
+        padding: 8vh 7vw;
+        padding-left: 4.4em;
+    }
+
+    #copyright p {
+        font-size: 0.694em;
+    }
+
+    #a_btn_up {
+        left: 82%;
+        bottom: 2em;
+    }
+}
